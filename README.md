@@ -4,7 +4,7 @@ jQuery-select-areas
 Adding area id information on each area.
 Based on jQuery-select-areas.
 
-![jQuery-select-areas Preview](https://github.com/stephanebouget/jquery-select-areas/master/preview.png)
+![jQuery-select-areas Preview](https://github.com/stephanebouget/jquery-select-areas/blob/master/resources/preview.png)
 
 # Quick Start
 
