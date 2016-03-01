@@ -1,19 +1,17 @@
 jQuery-select-areas
 ===================
 
-jQuery-select-areas is a jQuery plugin that let you select multiple areas of an image,
-move them and resize them.
+Adding area id information on each area.
+Based on jQuery-select-areas.
 
-It is used by:
- - [360learning](https://360learning.com)
-
-![jQuery-select-areas Preview](https://rawgit.com/360Learning/jquery-select-areas/master/jQuerySelectAreas-Preview.png)
+![jQuery-select-areas Preview](https://github.com/stephanebouget/jquery-select-areas/master/preview.png)
 
 # Quick Start
 
 ## Use like so:
 
     $("#mypic").selectAreas({
+      allowDisplayId: true
       minSize: [30, 30],    // Minimum size of a selection
       maxSize: [400, 300],  // Maximum size of a selection
       onChanged: $.noop,    // fired when a selection is released
@@ -48,6 +46,7 @@ An area is described (when retrieved or set) by a json object:
 ## Options
 Here is a list of available options for selectAreas, with their *default value*:
 
+ - **allowDisplayId** (*true*) : When set to false, unset allowDisplayId
  - **allowEdit** (*true*) : When set to false, unset allowMove, allowResize, allowSelect and allowDelete
  - **allowMove** (*true*) : When set to false, Areas can not be moved with a drag & drop.
  - **allowResize** (*true*) : When set to false, Areas can not be resized.
