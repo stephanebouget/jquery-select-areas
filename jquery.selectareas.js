@@ -510,6 +510,7 @@
         if (options.allowDisplayId) {
             $idArea = $("<div />")
                 .html(id)
+                .attr("id", "id_area_" + id)
                 .addClass("id_area")
                 .css({
                     background: "#fff",
